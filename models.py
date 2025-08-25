@@ -35,3 +35,4 @@ class Post(Base):
 
     user = relationship('User', back_populates='posts')
 
+ 
